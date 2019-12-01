@@ -1,0 +1,2 @@
+<!--pages/VR/VR.wxml-->
+<web-view src="{{video}}" style='width:100vw;height:100vw'></web-view> 

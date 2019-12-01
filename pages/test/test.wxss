@@ -1,0 +1,4 @@
+@keyframes kf-marque-animation{ 0% { transform: translateX(000px); } 100% { transform: translateX(-800px); } }
+.test{
+  animation: kf-marque-animation 10s linear infinite
+  }

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/introduce/introduce",
+    "pages/AR/AR",
+    "pages/VR/VR",
+    "pages/recognition/recognition",
+    "pages/show/show",
+    "pages/test/test"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/img/home.png",
+        "selectedIconPath": "pages/img/home-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "帮助",
+        "iconPath": "pages/img/help.png",
+        "selectedIconPath": "pages/img/help-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "万象丽水",
+    "navigationBarTextStyle": "white"
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.0",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

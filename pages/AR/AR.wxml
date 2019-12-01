@@ -1,0 +1,2 @@
+<!--pages/hello/hello.wxml-->
+<web-view src="https://www.lszscm.com/SimpleThreeJsExample/"></web-view>

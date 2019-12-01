@@ -1,0 +1,77 @@
+/* pages/introduce/introduce.wxss */
+.intr{
+  width: 90%;
+  height: 380rpx;
+  z-index: 10000000;
+  margin-left: 5%;
+  margin-top: -180rpx;
+  border-radius: 10rpx;
+}
+.tit{
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  color: black;
+}
+
+.art{
+  color: grey;
+  margin-top: 15rpx;
+  font-size: small;
+  margin-left: 30rpx;
+  margin-right: 15rpx;
+}
+
+.btn{
+  background-color: white;
+  padding-top: 15rpx;
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+
+
+.link{
+  color: lightskyblue;
+  border-bottom: 1px solid lightskyblue;
+}
+
+.name{
+  height: 2rpx;
+  background-color: lightgray;
+  width: 98%;
+  margin-left: 1%;
+  margin-top: 10rpx;
+}
+
+.image-group {	
+	display: flex;
+	white-space: nowrap;
+	margin-top: 30rpx;	
+}
+	
+	
+.image-group image {
+	display: inline-block;
+	width: 575rpx;
+	height: 280rpx;
+	margin-right: 20rpx;
+}
+
+/*日历*/
+.calendar {
+   
+    background-color:white;  
+    padding-top: 10px; 
+}
+.calendar-header{
+ 
+  font-size: large;
+  color: #59518d;
+}
+.calendar-board{
+  color: #c7cbe2;
+   font-weight: bold;
+}
+

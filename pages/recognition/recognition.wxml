@@ -1,0 +1,11 @@
+<camera device-position="back"  flash="off" binderror="error" style="width: 100%; height: {{height}}px">
+<cover-view class='btn-area'>
+    <button type='primary' style='opacity: 1;border-radius:60rpx;' bindtap='takePhoto'>{{msg}}</button>
+</cover-view>
+</camera>
+<!-- <view class='recognition-container'>
+  <view class="btn-area">
+      <button type="primary" style='opacity: 1;border-radius:60rpx;' bindtap="takePhoto"><span>ar识别</span></button>
+  </view>
+</view> -->
+ 

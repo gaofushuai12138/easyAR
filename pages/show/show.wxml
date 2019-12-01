@@ -1,0 +1,4 @@
+<video src="{{video}}" style="width:100vw;height:100vh" autoplay='true'>
+  <!-- <cover-image style='width:100vw;height:100vh'  src='{{img}}' ></cover-image> -->
+</video>
+  

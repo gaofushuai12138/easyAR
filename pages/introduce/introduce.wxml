@@ -1,0 +1,35 @@
+<!--pages/introduce/introduce.wxml-->
+<scroll-view scroll-y style='height: {{windowHeight}}px'>
+  <image src='{{background}}' style='width:100vw;height:420rpx' ></image>
+  <image src='{{introduce}}' class='intr'></image>
+  <view class='tit'>关于在这座城市的我</view>
+  <view class='art'>然来自于大大咧咧热情似火的白羊座,但却是一个特别爱操心的人,每年都会去很多地方旅游,记忆中我十年前就开始自助游了，有非常丰富的自助游经验,仅2017年就去了很多地方。</view>
+<view class='link' style='float:right;margin-top:15rpx;margin-right:28rpx;font-size:25rpx;'>查看全部内容</view>
+<image src='{{int}}' style="width:90%;margin-left:5%;margin-top:25rpx;height:700rpx"></image>
+<view class="name"></view>
+<view class='tit' style='margin-top:35rpx'>地导相册</view>
+<scroll-view class="image-group" scroll-x="true" style='margin-left:15rpx'>
+  <image src='../img/001.jpg'></image>
+  <image src='../img/001.jpg'></image>
+  <image src='../img/001.jpg'></image>  
+</scroll-view>
+<view class='name'></view>
+<view class='rili'>
+<view class='tit' style='margin-top:35rpx'>地导日历</view>
+<calendar class="" calendar-style="calendar"  header-style="calendar-header"  board-style="calendar-board"
+ days-color="{{dayStyle}}" weeks-type="cn" binddayClick="dayClick" />
+ </view>
+ <view class='name' style='margin-top:15rpx'></view>
+<view style='height:150rpx'>
+</view>
+
+<view class='btn'>
+  <button type='primary' style='width:90%;margin-left:5%'>咨询</button>
+  <!-- <button type=''></button> -->  
+</view> 
+<!-- <image src='../img/pingjia.jpg' style='width:95%;margin-left:2.5%;height:400rpx;'></image> -->
+  <!-- <view class='btn'>
+    <button class='btn1' type='primary' style='height:85rpx;'>咨询</button>
+    <button class='btn1' type='primary' style='margin-top:10rpx;height:85rpx'>预定</button>
+  </view> -->
+</scroll-view>

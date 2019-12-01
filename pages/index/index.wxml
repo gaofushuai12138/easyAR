@@ -1,0 +1,91 @@
+<!--pages/index/index.wxml-->
+<scroll-view scroll-y style='height: {{windowHeight}}px'>
+ <!--轮播图-->
+<!-- <view class="recommend" >  
+  <view class="swiper-container">  
+    <swiper autoplay="auto" interval="5000" circular='true' duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">  
+      <block wx:for="{{slider}}" wx:key="id">  
+        <swiper-item data-id="{{item.id}}" data-url="{{item.linkUrl}}">  
+          <!-- <text class='name'>{{item.name}}</text> -->
+          <!-- <image src="{{item.picUrl}}" class="img"></image>  
+        </swiper-item>  
+      </block>  
+    </swiper>  
+  </view>  
+</view> --> 
+<!--中间列表-->
+<!-- <view class="categoryList">
+<view class="category-info">
+<image class="category-image"src="/pages/img/demo003.png" bindtap='jump1'></image>
+<view class="category-text">AR识别</view>
+</view>
+<view class="category-info">
+<image class="category-image"src="/pages/img/demo002.png" bindtap='jump_2'></image>
+<view class="category-text">VR体验</view>
+</view>
+<view class="category-info">
+<image class="category-image"src="/pages/img/demo004.png" bindtap='jump_3'></image>
+<view class="category-text"><a linkUrl="https://www.baidu.com">微视频体验</a></view>
+</view>
+<view class="category-info">
+<image class="category-image"src="/pages/img/demo001.png" bindtap='jump_4'></image>
+<view class="category-text">导游服务</view>
+</view>
+</view>  
+<!-- <view class='smallinform'>
+  <image src='/pages/img/news.png' class='smallpic'></image>
+  <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
+      <block wx:for="{{msgList}}">
+          <swiper-item>
+            <text class='smalltxt'>{{item.title}}</text>
+          </swiper-item>
+      </block>
+    </swiper>
+</view> -->
+<!-- <view class='pic'  wx:for="{{pic}}" >
+  <image class='img' style='width:45vw;height:25vw;margin-left:20rpx;' src='{{item.url}}'>
+      <view class='title'>
+        <view class='txt'>{{item.name}}</view>
+      </view>
+  </image>
+</view>  -->
+<!-- <view style="" class='name'>
+ <block wx:for="{{tab}}">
+   <view style='padding-top:20rpx' bindtap='click' data-link='{{item.link}}'>
+          <image src='{{item.img}}' class='{{item.index % 2 == 0 ? "image":"image1"}}' ></image>  
+          <image src='{{item.pic}}' style='width:95%;height:350rpx;margin-left:2.5%;margin-top:15rpx;margin-bottom:15rpx'></image> 
+          <view class='neirong'>{{item.content}}</view>
+    </view> 
+    <view class='name'></view>
+</block> -->
+<!-- <image src='../img/lun.png' style='width:100%;height:320rpx;'></image>
+<image src='../img/AR-1.png' style='width:70%;height:135rpx;margin-left:15%' bindtap='jumptoar'></image>
+<image src='../img/VR-2.png' style='width:70%;height:135rpx;margin-left:15%' bindtap='jumptovr'></image>
+<image src='../img/video-3.png' style='width:70%;height:135rpx;margin-left:15%' bindtap='jumptovideo'></image> -->
+<!-- <view style="" class='name'></view>
+  <block wx:for="{{tab}}">
+   <view style='padding-top:20rpx' bindtap='click' data-link='{{item.link}}'>
+         <view class='tle'>{{item.title}}</view>
+          <image src='{{item.pic}}' style='width:95%;height:350rpx;margin-left:2.5%;margin-top:15rpx;margin-bottom:15rpx'></image> 
+          <view class='neirong'>{{item.content}}</view>
+    </view> 
+    <view class='name'></view>
+</block> -->
+<view class='header'>万象丽水!</view>
+<view class='sheader'>简单可靠,给你不一样的丽水体验</view>
+<view class='guide'>
+    <image bindtap='jumptoar' src='../img/AR.jpg' style='width:400rpx;height:140rpx;border-radius:15rpx;float:left' ></image>
+    <image bindtap='jumptovr' src='../img/VR.jpg' style='width:400rpx;height:140rpx;border-radius:15rpx;float:left;margin-top:10rpx'></image>
+    <image src='../img/lvxing.jpg' style='width:290rpx;height:290rpx;float:left;border-radius:15rpx;margin-left:25rpx;margin-top:-140rpx;'></image>
+</view>
+<view style='margin-top:80rpx;margin-left:15rpx;font-size:50rpx;font-weight:200'>备受好评的地导</view>
+<view class='name'></view>
+
+<image src='../img/lvxing1.jpg' style='margin-top:20rpx;width:100%;height:600rpx' bindtap='jump1'></image>
+<view style='background-color: rgb(238, 238, 238);width: 100%;height:10rpx;margin-top:-10rpx'></view>
+<image src='../img/lvxing2.jpg' style='width:100%;height:600rpx' bindtap='jump2'></image>
+<view style='background-color: rgb(238, 238, 238);width: 100%;height:10rpx;margin-top:-10rpx'></view>
+<image src='../img/lvxing3.jpg' style='width:100%;height:600rpx' bindtap='jump3'></image>
+<view style='background-color: rgb(238, 238, 238);width: 100%;height:10rpx;margin-top:-10rpx' ></view>
+<image src='../img/nine.jpg' style='width:100%;height:650rpx'></image>
+</scroll-view>
